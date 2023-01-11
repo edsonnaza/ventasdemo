@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1012840487991",
+    "project_id": "ventasdemo-822a9",
+    "storage_bucket": "ventasdemo-822a9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1012840487991:android:de1244081f61fdccfdf3b2",
+        "android_client_info": {
+          "package_name": "com.example.ventademo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1012840487991-gu60pdreh1lpplh9o75b1ml1cnsbmgp7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ventademo",
+            "certificate_hash": "396a2af1a6bfeb16cd3a09482a04b170e4e0aeb2"
+          }
+        },
+        {
+          "client_id": "1012840487991-1noqpj5sal499t3g4v9aqo31lem5llpq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB67UmmskhCBYDbhFoRkdxifab1PxrxV3Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1012840487991-1noqpj5sal499t3g4v9aqo31lem5llpq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
