@@ -1,5 +1,6 @@
 package com.example.ventasdemo
 
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
@@ -30,7 +31,9 @@ class MainActivity : AppCompatActivity() {
             .addOnCompleteListener { task ->
                 if(task.isSuccessful){
                     val user= firebaseAuth.currentUser
-                    Toast.makeText(baseContext,user?.uid.toString(),Toast.LENGTH_SHORT).show()
+                    Toast.makeText(baseContext,"Success!",Toast.LENGTH_SHORT).show()
+                    val i = Intent(this,MainActivity2::class.java)
+                    startActivity(i)
                 } else{
                     Toast.makeText(baseContext,"Email or password not valid!!",Toast.LENGTH_SHORT).show()
 
