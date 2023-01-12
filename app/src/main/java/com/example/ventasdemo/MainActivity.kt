@@ -18,13 +18,20 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        val btnsing : Button = findViewById(R.id.buttonSingIn)
-        val txtemail : TextView = findViewById(R.id.email)
-        val txtpass : TextView = findViewById(R.id.password)
+        val btnsing : Button = findViewById(R.id.btnLogin)
+        val txtemail : TextView = findViewById(R.id.txtEmail)
+        val txtpass : TextView = findViewById(R.id.txtPassword)
+        val txtSignUP: TextView = findViewById(R.id.txtSingUp)
         firebaseAuth= Firebase.auth
         btnsing.setOnClickListener() {
                 singIn(txtemail.text.toString(),txtpass.text.toString())
         }
+
+        txtSignUP.setOnClickListener() {
+            val i=Intent(this,NewUserActivity::class.java)
+        }
+
+
     }
     private fun singIn(email:String, password:String){
         firebaseAuth.signInWithEmailAndPassword(email,password)
