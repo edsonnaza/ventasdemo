@@ -9,7 +9,7 @@
       "client_info": {
         "mobilesdk_app_id": "1:1012840487991:android:de1244081f61fdccfdf3b2",
         "android_client_info": {
-          "package_name": "com.example.ventademo"
+          "package_name": "com.example.ventasdemo"
         }
       },
       "oauth_client": [
@@ -17,7 +17,7 @@
           "client_id": "1012840487991-gu60pdreh1lpplh9o75b1ml1cnsbmgp7.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.example.ventademo",
+            "package_name": "com.example.ventasdemo",
             "certificate_hash": "396a2af1a6bfeb16cd3a09482a04b170e4e0aeb2"
           }
         },
